@@ -97,23 +97,22 @@ export const SHOWS = [
 export const requirments = [
   {
     title: 'TOfel ',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    summary:   "It's one of the most important tests that help you to get accepted in college if u were a forginer. Here's a website that will help you to know more about it and about how to register.https://www.ets.org/toefl" ,
+
     image: Tofel,
   },
+
   {
     title: 'SAT',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    summary: "Its a test to examine your skills at major subjects. Heres a link to know more about it: https://collegereadiness.collegeboard.org/sat",
+
     image: Sat,
   },
+
   {
     title: 'IELTS',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    summary: "Its so similar for the TOFEL. heres a link to know more about it: https://www.ielts.org/",
+
     image: IELTS,
   },
 ];
@@ -122,22 +121,19 @@ export const scholarships = [
   {
     title: 'humber ',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+   
     image: humber,
   },
   {
     title: 'hopefund',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    
     image: hopefund,
   },
   {
     title: 'tommorrows leader',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+   
     image: tmr,
   },
 ];
