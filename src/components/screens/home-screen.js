@@ -3,8 +3,9 @@ import styled from 'styled-components/native';
 import Header from 'components/common/header';
 import { COLORS } from 'constants/styles';
 import { TouchableWithoutFeedback, ScrollView, TouchableOpacity } from 'react-native';
-import ShowData from 'data/data';
+import {SHOWS , requirments , scholarships} from 'data/data';
 import Icon from 'react-native-vector-icons/FontAwesome';
+//import requirments from  'data/data';
 
 const Container = styled.View`
 	display: flex;
@@ -47,8 +48,8 @@ const ImageContainer = styled.View`
 `;
 
 const Image = styled.Image`
-	width: 75;
-	height: 100;
+	width: 150;
+	height: 125;
 	margin-left: 5;
 	margin-right: 5;
 	margin-top: 10;
@@ -175,10 +176,10 @@ class HomeScreen extends Component {
 		}
 	}
 
-	renderHorizontalCarousel() {
+	renderHorizontalCarousel(data) {
 		return (
 			<ImageContainer>
-				{ShowData.map((show, index) => (
+				{data.map((show, index) => (
 					<TouchableOpacity
 						onPress={() => this.props.navigation.navigate('ShowDetails', show)}
 						key={index}
@@ -192,24 +193,27 @@ class HomeScreen extends Component {
 
 	render() {
 		return (
+		<ScrollView>
 			<Container>
+
 				<Header openDrawer={() => this.props.navigation.navigate('DrawerOpen')} />
 				<UserNavigationContainer>
 					{this.renderUserNavigation()}
 				</UserNavigationContainer>
-				{this.renderSubHeading('Trending Now', 'Recommended for you')}
+				{this.renderSubHeading('Colleges', 'top colleges in the US')}
 				<ScrollView horizontal={true}>
-					{this.renderHorizontalCarousel()}
+					{this.renderHorizontalCarousel(SHOWS)}
 				</ScrollView>
-				{this.renderSubHeading('Continue Watching for Vicki', null)}
+				{this.renderSubHeading('requirments', null)}
 				<ScrollView horizontal={true}>
-					{this.renderHorizontalCarousel()}
+					{this.renderHorizontalCarousel(requirments)}
 				</ScrollView>
-				{this.renderSubHeading('Recently Added', null)}
+				{this.renderSubHeading('schalorships', null)}
 				<ScrollView horizontal={true}>
-					{this.renderHorizontalCarousel()}
+					{this.renderHorizontalCarousel(scholarships)}
 				</ScrollView>
 			</Container>
+		</ScrollView>
 		);
 	}
 }
