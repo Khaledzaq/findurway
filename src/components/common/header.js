@@ -18,11 +18,13 @@ const Container = styled.View`
 const IconContainer = styled.View`
 	padding-left: 10;
 	padding-right: 10;
+	padding-top: 50;
 `;
 
 const LogoContainer = styled.Image`
+	padding-top:50;
 	width: 175;
-	height: 50;
+	height: 100;
 `;
 
 class Header extends Component {
