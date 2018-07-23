@@ -5,7 +5,7 @@ import { COLORS } from 'constants/styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Container = styled.View`
-  background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+  background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
   height: 100%;
 `;
 
@@ -39,7 +39,7 @@ const SummaryHeader = styled(SummaryText)`
 `;
 
 const SummaryCreditsText = styled.Text`
-  color: ${COLORS.GREY.BLACK_RUSSIAN};
+  color: ${COLORS.GREY.FIRE_ENGINE_PER};
   margin-top: 5;
 `;
 

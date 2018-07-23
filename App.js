@@ -12,7 +12,7 @@ const DrawerContainer = styled.View`
 
 const AppContainer = styled.View`
   flex: 1;
-  background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+  background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 `;
 
 const drawerRouteConfig = {
