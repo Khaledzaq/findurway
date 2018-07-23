@@ -98,17 +98,11 @@ class ShowDetailsScreen extends Component {
         <TitleContainer>
           <TitleText>{params.title}</TitleText>
           <TouchableOpacity onPress={() => {}}>
-            <MyListButton>
-              <Icon name="plus" size={10} color={COLORS.WHITE.WHITE} />
-              <MyListButtonText>{'MY LIST'}</MyListButtonText>
-            </MyListButton>
           </TouchableOpacity>
         </TitleContainer>
         <SummaryContainer>
           <SummaryHeader>{'Summary'}</SummaryHeader>
           <SummaryText>{params.summary}</SummaryText>
-          <SummaryCreditsText>{'Starring: '}{params.starring}</SummaryCreditsText>
-          <SummaryCreditsText>{'Creator: '}{params.creator}</SummaryCreditsText>
         </SummaryContainer>
       </Container>
     );

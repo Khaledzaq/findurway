@@ -120,19 +120,19 @@ export const requirments = [
 export const scholarships = [
   {
     title: 'humber ',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-   
+    summary: "Humber offers full and partial renewable tuition scholarships for new international undergraduate students. vist thier website to know more http://www.scholars4dev.com/3482/international-undergraduate-scholarships-at-humber-college-canada/",
+
     image: humber,
   },
   {
     title: 'hopefund',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: "This scholarship helps you to prepare for college and also it helps you with the finanical side so it pays you the tests costs then it grants you a full scholarship for the four years. You can visit the website so you can know more about it https://www.amideast.org/west-bank-gaza/academic-and-cultural-exchange/hope-fund-scholarship",
     
     image: hopefund,
   },
   {
     title: 'tommorrows leader',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: "This scolarship garnts a full scholarship for college. Visit this website so you can know more https://www.amideast.org/our-work/academic-and-cultural-exchange/developing-future-leaders/tomorrows-leaders-scholarship-program",
    
     image: tmr,
   },
