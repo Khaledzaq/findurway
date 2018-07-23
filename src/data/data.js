@@ -18,65 +18,22 @@ const tmr = require('../../assets/images/tmr.png');
 export const SHOWS = [
   {
     title: 'Chicago University ',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    summary: 'for more information visit : https://www.uchicago.edu/about',
     image: DARE_DEVIL,
   },
   {
     title: 'Harvard University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
     image: HOUSE_OF_CARDS,
   },
   {
     title: 'Yale University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
     image: LUKE_CAGE,
   },
   {
     title: 'princeton University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
-    image: ORANGE_IS_THE_NEW_BLACK,
-  },
-  {
-    title: 'Stanford University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
-    image: STRANGER_THINGS,
-  },
-  {
-    title: 'Chicago University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
-    image: DARE_DEVIL,
-  },
-  {
-    title: 'Harvard University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
-    image: HOUSE_OF_CARDS,
-  },
-  {
-    title: 'Yale University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
-    image: LUKE_CAGE,
-  },
-  {
-    title: 'princeton University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
     image: ORANGE_IS_THE_NEW_BLACK,
   },
   {
@@ -86,8 +43,8 @@ export const SHOWS = [
   },
   {
     title: 'Chicago University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-   image: DARE_DEVIL,
+    summary: 'for more information visit : https://www.uchicago.edu/about',
+    image: DARE_DEVIL,
   },
   {
     title: 'Harvard University',
@@ -97,22 +54,41 @@ export const SHOWS = [
   {
     title: 'Yale University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
     image: LUKE_CAGE,
   },
   {
     title: 'princeton University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
     image: ORANGE_IS_THE_NEW_BLACK,
   },
   {
     title: 'Stanford University',
     summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    starring: 'Winona Ryder, David Harbour, Mathew Modine',
-    creator: 'The Duffer Brothers',
+    image: STRANGER_THINGS,
+  },
+  {
+    title: 'Chicago University',
+    summary: 'for more information visit : https://www.uchicago.edu/about',
+    image: DARE_DEVIL,
+  },
+  {
+    title: 'Harvard University',
+    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    image: HOUSE_OF_CARDS,
+  },
+  {
+    title: 'Yale University',
+    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    image: LUKE_CAGE,
+  },
+  {
+    title: 'princeton University',
+    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    image: ORANGE_IS_THE_NEW_BLACK,
+  },
+  {
+    title: 'Stanford University',
+    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
     image: STRANGER_THINGS,
   },
 ];
