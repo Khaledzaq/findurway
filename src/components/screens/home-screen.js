@@ -193,8 +193,9 @@ class HomeScreen extends Component {
 
 	render() {
 		return (
-		<ScrollView>
-			<Container>
+		<Container>
+			<ScrollView>
+			
 
 				<Header openDrawer={() => this.props.navigation.navigate('DrawerOpen')} />
 				<UserNavigationContainer>
@@ -212,8 +213,9 @@ class HomeScreen extends Component {
 				<ScrollView horizontal={true}>
 					{this.renderHorizontalCarousel(scholarships)}
 				</ScrollView>
-			</Container>
-		</ScrollView>
+		
+			</ScrollView>
+		</Container>
 		);
 	}
 }

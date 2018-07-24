@@ -13,16 +13,19 @@ const Container = styled.View`
 	align-items: center;
 	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 	justify-content: space-between;
+
 `;
 
 const IconContainer = styled.View`
 	padding-left: 10;
 	padding-right: 10;
+	padding-top:50;
 `;
 
 const LogoContainer = styled.Image`
 	width: 175;
 	height: 100;
+	padding-top:50;
 `;
 
 class Header extends Component {
