@@ -11,7 +11,7 @@ const Container = styled.View`
 	flex-direction: row;
 	height: 60;
 	align-items: center;
-	background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 	justify-content: space-between;
 `;
 
