@@ -3,6 +3,10 @@ import { TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 import { COLORS } from 'constants/styles';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import Hyperlink from 'react-native-hyperlink';
+import {Text, Linking} from 'react-native';
+
+
 
 const Container = styled.View`
   background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
@@ -22,6 +26,7 @@ const TitleText = styled.Text`
   color: ${COLORS.WHITE.WHITE};
 `;
 
+
 const SummaryContainer = styled.View`
   background-color: ${COLORS.GREY.BRIGHT_GREY};
   padding-top: 10;
@@ -32,18 +37,34 @@ const SummaryContainer = styled.View`
 
 const SummaryText = styled.Text`
   color: ${COLORS.WHITE.WHITE};
+  fontSize: 20;
+`;
+
+const LinkText = styled.Text`
+  color: ${COLORS.WHITE.WHITE};
+  fontSize: 20;
 `;
 
 const SummaryHeader = styled(SummaryText)`
   margin-bottom: 15;
+  fontSize: 20;
+`;
+
+const Linkheader = styled(LinkText)`
+ margin-bottom: 15;
+  fontSize: 20;
 `;
 
 const SummaryCreditsText = styled.Text`
   color: ${COLORS.GREY.BLACK_RUSSIAN};
   margin-top: 5;
+  fontSize: 15;
 `;
 
 const HeaderContainer = styled.View`
+`;
+
+const LinkContainer =styled.View`
 `;
 
 const ImageHeader = styled.Image`
@@ -89,11 +110,6 @@ class ShowDetailsScreen extends Component {
             </BackIconContainer>
           </TouchableOpacity>
           <ImageHeader source={params.image} resizeMode={'contain'} />
-          <TouchableOpacity onPress={() => {}}>
-            <PlayIconContainer>
-              <Icon name={'play-circle-o'} size={60} color={COLORS.WHITE.WHITE} />
-            </PlayIconContainer>
-          </TouchableOpacity>
         </HeaderContainer>
         <TitleContainer>
           <TitleText>{params.title}</TitleText>
@@ -101,9 +117,23 @@ class ShowDetailsScreen extends Component {
           </TouchableOpacity>
         </TitleContainer>
         <SummaryContainer>
-          <SummaryHeader>{'Summary'}</SummaryHeader>
+          <SummaryHeader>{}</SummaryHeader>
           <SummaryText>{params.summary}</SummaryText>
         </SummaryContainer>
+        <LinkContainer>
+       
+
+    <Text style={ { fontSize: 15 } }  onPress={ (url, text) =>{ Linking.openURL(params.link); }}>
+     {params.link}
+    </Text>
+
+
+ 
+  
+          {/*<Linkheader> {'Link: '}</Linkheader>
+          <LinkText>{params.link.link(params.link)}</LinkText>*/}
+        </LinkContainer>
+
       </Container>
     );
   }
