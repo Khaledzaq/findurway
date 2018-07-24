@@ -23,22 +23,42 @@ export const SHOWS = [
   },
   {
     title: 'Harvard University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit : https://college.harvard.edu/about ',
     image: HOUSE_OF_CARDS,
   },
   {
     title: 'Yale University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for me information visit: ' + 'https://www.yale.edu/about-yale'.link('https://www.yale.edu/about-yale'),
     image: LUKE_CAGE,
   },
   {
     title: 'princeton University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit: ' + 'https://www.princeton.edu/'.link('https://www.princeton.edu/'),
     image: ORANGE_IS_THE_NEW_BLACK,
   },
   {
     title: 'Stanford University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit: ' + 'https://www.stanford.edu/about/'.link('https://www.stanford.edu/about/'),
+    image: STRANGER_THINGS,
+  },
+  {
+    title: 'Harvard University',
+    summary: 'for more information visit : https://college.harvard.edu/about ',
+    image: HOUSE_OF_CARDS,
+  },
+  {
+    title: 'Yale University',
+    summary: 'for me information visit: ' + 'https://www.yale.edu/about-yale'.link('https://www.yale.edu/about-yale'),
+    image: LUKE_CAGE,
+  },
+  {
+    title: 'princeton University',
+    summary: 'for more information visit: ' + 'https://www.princeton.edu/'.link('https://www.princeton.edu/'),
+    image: ORANGE_IS_THE_NEW_BLACK,
+  },
+  {
+    title: 'Stanford University',
+    summary: 'for more information visit: ' + 'https://www.stanford.edu/about/'.link('https://www.stanford.edu/about/'),
     image: STRANGER_THINGS,
   },
   {
@@ -48,47 +68,22 @@ export const SHOWS = [
   },
   {
     title: 'Harvard University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit : https://college.harvard.edu/about ',
     image: HOUSE_OF_CARDS,
   },
   {
     title: 'Yale University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for me information visit: ' + 'https://www.yale.edu/about-yale'.link('https://www.yale.edu/about-yale'),
     image: LUKE_CAGE,
   },
   {
     title: 'princeton University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit: ' + 'https://www.princeton.edu/'.link('https://www.princeton.edu/'),
     image: ORANGE_IS_THE_NEW_BLACK,
   },
   {
     title: 'Stanford University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    image: STRANGER_THINGS,
-  },
-  {
-    title: 'Chicago University',
-    summary: 'for more information visit : https://www.uchicago.edu/about',
-    image: DARE_DEVIL,
-  },
-  {
-    title: 'Harvard University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    image: HOUSE_OF_CARDS,
-  },
-  {
-    title: 'Yale University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    image: LUKE_CAGE,
-  },
-  {
-    title: 'princeton University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
-    image: ORANGE_IS_THE_NEW_BLACK,
-  },
-  {
-    title: 'Stanford University',
-    summary: 'When a young boy vanishes, a small town uncovers a mystery involving a secret experiment, terrify supernatural forces, and one strange little girl',
+    summary: 'for more information visit: ' + 'https://www.stanford.edu/about/'.link('https://www.stanford.edu/about/'),
     image: STRANGER_THINGS,
   },
 ];

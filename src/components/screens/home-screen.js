@@ -11,7 +11,7 @@ const Container = styled.View`
 	display: flex;
 	width: 100%;
 	height: 100%;
-	background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 `;
 
 const UserNavigationContainer = styled.View`
@@ -19,7 +19,7 @@ const UserNavigationContainer = styled.View`
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 `;
 
 const UserNavigationLink = styled.View`
@@ -30,12 +30,12 @@ const UserNavigationLink = styled.View`
 	padding-right: 10;
 	padding-left: 10;
 	padding-bottom: 10;
-	background-color: ${COLORS.GREY.BLACK_RUSSIAN};
+	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
 	border-bottom-width: 5;
 `;
 
 const ActiveUserNavigationLink = styled(UserNavigationLink)`
-	border-bottom-color: ${COLORS.RED.FIRE_ENGINE_RED};
+	border-bottom-color: ${COLORS.WHITE.WHITE};
 `;
 
 const UserNavigationLinkText = styled.Text`
