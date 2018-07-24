@@ -28,7 +28,7 @@ const TitleText = styled.Text`
 
 
 const SummaryContainer = styled.View`
-  background-color: ${COLORS.GREY.BRIGHT_GREY};
+  background-color: ${COLORS.WHITE.WHITE};
   padding-top: 10;
   padding-right: 10;
   padding-left: 10;
@@ -36,7 +36,7 @@ const SummaryContainer = styled.View`
 `;
 
 const SummaryText = styled.Text`
-  color: ${COLORS.WHITE.WHITE};
+  color: ${COLORS.GREY.BRIGHT_GREY};
   fontSize: 20;
 `;
 
@@ -56,7 +56,7 @@ const Linkheader = styled(LinkText)`
 `;
 
 const SummaryCreditsText = styled.Text`
-  color: ${COLORS.GREY.BLACK_RUSSIAN};
+  color: ${COLORS.GREY.BRIGHT_GREY};
   margin-top: 5;
   fontSize: 15;
 `;

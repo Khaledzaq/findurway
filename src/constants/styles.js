@@ -11,6 +11,7 @@ export const COLORS = {
 	WHITE: {
 		WHITE: '#FFFFFF',
 	},
+	
 };
 
  
