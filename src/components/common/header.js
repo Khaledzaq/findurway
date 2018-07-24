@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { COLORS } from 'constants/styles';
-import { TouchableWithoutFeedback } from 'react-native';
-const NETFLIX_LOGO = require('../../../assets/icons/right-college.jpg');
+import { TouchableWithoutFeedback, Text } from 'react-native';
+//const NETFLIX_LOGO = require('../../../assets/icons/right-college.jpg');
 
 const Container = styled.View`
 	display: flex;
@@ -12,7 +12,7 @@ const Container = styled.View`
 	height: 60;
 	align-items: center;
 	background-color: ${COLORS.GREY.FIRE_ENGINE_PER};
-	justify-content: space-between;
+	justify-content: center;
 
 `;
 
@@ -29,6 +29,13 @@ const LogoContainer = styled.Image`
 	padding-top:50;
 `;
 
+const Textword = styled.Text`	
+	align-items: center;
+	fontSize: 40px;
+	fontFamily: 'Chela_One';
+	color: ${COLORS.WHITE.WHITE};
+`;
+
 class Header extends Component {
 	static propTypes = {
 		openDrawer: PropTypes.func.isRequired,
@@ -38,19 +45,8 @@ class Header extends Component {
 		const { openDrawer } = this.props;
 		return (
 			<Container>
-				<TouchableWithoutFeedback onPress={openDrawer}>
-					<IconContainer>
-						{/*<Icon name={'bars'} size={30} color={COLORS.GREY.BRIGHT_GREY} />*/}
-					</IconContainer>
-				</TouchableWithoutFeedback>
+				<Textword> Find your way </Textword>
 
-				<LogoContainer source={NETFLIX_LOGO} />
-
-				<TouchableWithoutFeedback onPress={() =>{}}>
-					<IconContainer>
-						{/*<Icon name={'search'} size={30} color={COLORS.GREY.BRIGHT_GREY} />*/}
-					</IconContainer>
-				</TouchableWithoutFeedback>
 			</Container>
 		);
 	}
