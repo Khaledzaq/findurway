@@ -22,7 +22,8 @@ const IconContainer = styled.View`
 	padding-top:50;
 `;
 
-const LogoContainer = styled.Image`
+const LogoContainer = styled.Image`	
+	padding-top: 20;
 	width: 175;
 	height: 100;
 	padding-top:50;
@@ -39,7 +40,7 @@ class Header extends Component {
 			<Container>
 				<TouchableWithoutFeedback onPress={openDrawer}>
 					<IconContainer>
-						<Icon name={'bars'} size={30} color={COLORS.GREY.BRIGHT_GREY} />
+						{/*<Icon name={'bars'} size={30} color={COLORS.GREY.BRIGHT_GREY} />*/}
 					</IconContainer>
 				</TouchableWithoutFeedback>
 
@@ -47,7 +48,7 @@ class Header extends Component {
 
 				<TouchableWithoutFeedback onPress={() =>{}}>
 					<IconContainer>
-						<Icon name={'search'} size={30} color={COLORS.GREY.BRIGHT_GREY} />
+						{/*<Icon name={'search'} size={30} color={COLORS.GREY.BRIGHT_GREY} />*/}
 					</IconContainer>
 				</TouchableWithoutFeedback>
 			</Container>

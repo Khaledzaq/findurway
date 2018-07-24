@@ -39,7 +39,7 @@ const SummaryHeader = styled(SummaryText)`
 `;
 
 const SummaryCreditsText = styled.Text`
-  color: ${COLORS.GREY.FIRE_ENGINE_PER};
+  color: ${COLORS.GREY.BLACK_RUSSIAN};
   margin-top: 5;
 `;
 

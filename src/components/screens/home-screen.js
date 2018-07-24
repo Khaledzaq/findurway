@@ -198,9 +198,9 @@ class HomeScreen extends Component {
 			
 
 				<Header openDrawer={() => this.props.navigation.navigate('DrawerOpen')} />
-				<UserNavigationContainer>
+				{/*<UserNavigationContainer>
 					{this.renderUserNavigation()}
-				</UserNavigationContainer>
+				</UserNavigationContainer>*/}
 				{this.renderSubHeading('Colleges', 'top colleges in the US')}
 				<ScrollView horizontal={true}>
 					{this.renderHorizontalCarousel(SHOWS)}
