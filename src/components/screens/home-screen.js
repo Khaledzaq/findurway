@@ -45,6 +45,7 @@ const UserNavigationLinkText = styled.Text`
 const ImageContainer = styled.View`
 	display: flex;
 	flex-direction: row;
+	padding-bottom: 10;
 `;
 
 const Image = styled.Image`
@@ -65,14 +66,17 @@ const SubHeader = styled.View`
 `;
 
 const SubHeaderTextContainer = styled.View`
+
 `;
 
 const SubHeaderTitleText = styled.Text`
 	color: ${COLORS.WHITE.WHITE};
+    fontSize: 20;
 `;
 
 const SubHeaderText = styled.Text`
 	color: ${COLORS.GREY.BRIGHT_GREY};
+	fontSize: 20;
 `;
 
 const AllContainer = styled.View`
@@ -205,11 +209,11 @@ class HomeScreen extends Component {
 				<ScrollView horizontal={true}>
 					{this.renderHorizontalCarousel(SHOWS)}
 				</ScrollView>
-				{this.renderSubHeading('requirments', null)}
+				{this.renderSubHeading('Requirments', null)}
 				<ScrollView horizontal={true}>
 					{this.renderHorizontalCarousel(requirments)}
 				</ScrollView>
-				{this.renderSubHeading('schalorships', null)}
+				{this.renderSubHeading('Schalorships', null)}
 				<ScrollView horizontal={true}>
 					{this.renderHorizontalCarousel(scholarships)}
 				</ScrollView>
