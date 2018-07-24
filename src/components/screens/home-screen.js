@@ -151,7 +151,12 @@ class HomeScreen extends Component {
 							{text}
 						</SubHeaderText>
 					</SubHeaderTextContainer>
-					 
+					<AllContainer>
+						<AllText>{'All'}</AllText>
+						<IconContainer>
+							<Icon name={'angle-right'} size={20} color={COLORS.GREY.BRIGHT_GREY} />
+						</IconContainer>
+					</AllContainer>
 				</SubHeader>
 			);
 		} else {
@@ -160,8 +165,12 @@ class HomeScreen extends Component {
 					<SubHeaderTitleText>
 						{titleText}
 					</SubHeaderTitleText>
-
-
+					<AllContainer>
+						<AllText>{'All'}</AllText>
+						<IconContainer>
+							<Icon name={'angle-right'} size={20} color={COLORS.GREY.BRIGHT_GREY} />
+						</IconContainer>
+					</AllContainer>
 				</SubHeader>
 			);
 		}
